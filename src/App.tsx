@@ -16,10 +16,8 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Container = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  display: grid;
+  place-items: center;
   height: 100vh;
 `;
 

@@ -1,5 +1,8 @@
-import React, { Fragment } from 'react';
-import styled, { createGlobalStyle } from 'styled-components';
+import React from 'react';
+import { createGlobalStyle } from 'styled-components';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Header from './components/Header';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -15,28 +18,38 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-const Container = styled.div`
-  display: grid;
-  place-items: center;
-  height: 100vh;
-`;
+type RouteProps = {
+  path: string;
+  component: () => JSX.Element;
+  showHeader: boolean;
+  text?: string;
+};
 
-const Title = styled.div`
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 100px;
-  border-bottom: 10px solid #008cff;
-`;
+export const routes: RouteProps[] = [{
+  path: '/',
+  component: Home,
+  showHeader: false
+}, {
+  path: '',
+  component: Home,
+  showHeader: false
+}];
 
 const App = () => (
-  <Fragment>
+  <BrowserRouter>
     <GlobalStyle />
-    <Container>
-      <Title>
-        hello
-      </Title>
-    </Container>
-  </Fragment>
+    <Header />
+    <Switch>
+      {routes.map(({ path, component }, index) => (
+        <Route
+          key={index}
+          exact
+          path={path}
+          component={component}
+        />
+      ))}
+    </Switch>
+  </BrowserRouter>
 );
 
 export default App;

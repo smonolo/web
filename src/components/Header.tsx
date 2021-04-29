@@ -33,7 +33,7 @@ const HeaderItem = ({ path, grow, children }: PropsWithChildren<HeaderItemProps>
 
 const Container = styled.div`
   width: 100%;
-  border-bottom: 1px solid #555555;
+  border-bottom: 1px solid #3e3e3e;
   margin-bottom: 50px;
 `;
 
@@ -43,7 +43,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 30px 0;
+  padding: 20px 0;
 
   @media (max-width: 800px) {
     width: 90%;
@@ -54,13 +54,14 @@ const Image = styled.img`
   width: 40px;
   height: 40px;
   border-radius: 3px;
+  vertical-align: bottom;
 `;
 
 const Flex = styled.div`
   display: flex;
   width: fit-content;
   flex-direction: row;
-  gap: 20px;
+  gap: 25px;
 `;
 
 const Header = () => (

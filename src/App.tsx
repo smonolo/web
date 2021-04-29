@@ -6,6 +6,7 @@ import Header from './components/Header';
 import NotFound from './pages/NotFound';
 import About from './pages/About';
 import Footer from './components/Footer';
+import Contact from './pages/Contact';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -51,6 +52,11 @@ export const routes: RouteProps[] = [{
   component: About,
   showHeader: true,
   text: 'about'
+}, {
+  path: '/contact',
+  component: Contact,
+  showHeader: true,
+  text: 'contact'
 }, {
   path: '',
   component: NotFound,

@@ -9,7 +9,7 @@ const Spacer = styled.div`
 
 const Container = styled.div`
   width: 100%;
-  border-top: 1px solid #555555;
+  border-top: 1px solid #3e3e3e;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -21,7 +21,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 30px 0;
+  padding: 20px 0;
   color: #ffffff;
   font-weight: 500;
   font-size: 20px;

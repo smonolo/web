@@ -1,7 +1,35 @@
-import React from 'react';
+import React, { PropsWithChildren } from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import { routes } from '../App';
+
+type ItemProps = {
+  grow?: boolean;
+};
+
+const Item = styled.div<ItemProps>`
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  flex-grow: ${({ grow }) => grow ? 1 : 0};
+`;
+
+const Anchor = styled(Link)`
+  color: inherit;
+  text-decoration: none;
+`;
+
+type HeaderItemProps = ItemProps & {
+  path: string;
+};
+
+const HeaderItem = ({ path, grow, children }: PropsWithChildren<HeaderItemProps>) => (
+  <Item grow={grow}>
+    <Anchor to={path}>
+      {children}
+    </Anchor>
+  </Item>
+);
 
 const Container = styled.div`
   width: 100%;
@@ -16,17 +44,10 @@ const Wrapper = styled.div`
   flex-direction: row;
   align-items: center;
   padding: 30px 0;
-`;
 
-const Item = styled.div`
-  color: #ffffff;
-  font-weight: 500;
-  font-size: 20px;
-`;
-
-const Anchor = styled(Link)`
-  color: inherit;
-  text-decoration: none;
+  @media (max-width: 800px) {
+    width: 90%;
+  }
 `;
 
 const Image = styled.img`
@@ -35,23 +56,28 @@ const Image = styled.img`
   border-radius: 3px;
 `;
 
+const Flex = styled.div`
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  gap: 20px;
+`;
+
 const Header = () => (
   <Container>
     <Wrapper>
-      <Item>
-        <Anchor to='/'>
-          <Image
-            src='https://cdn.stemon.me/VfxwQAzSdd.png'
-            alt='home'
-            draggable={false}
-          />
-        </Anchor>
-      </Item>
-      {routes.filter(route => route.showHeader).map(({ path, text }, index) => (
-        <Item key={index}>
-          <Anchor to={path}>{text}</Anchor>
-        </Item>
-      ))}
+      <HeaderItem path='/' grow>
+        <Image
+          src='https://cdn.stemon.me/VfxwQAzSdd.png'
+          alt='home'
+          draggable={false}
+        />
+      </HeaderItem>
+      <Flex>
+        {routes.filter(route => route.showHeader).map(({ path, text }, index) => (
+          <HeaderItem key={index} path={path}>{text}</HeaderItem>
+        ))}
+      </Flex>
     </Wrapper>
   </Container>
 );

@@ -16,10 +16,10 @@ const Title = styled.div`
   font-weight: 500;
 `;
 
-const Home = () => (
+const NotFound = () => (
   <Container>
-    <Title>hello</Title>
+    <Title>yeah no, there's nothing here...</Title>
   </Container>
 );
 
-export default Home;
+export default NotFound;

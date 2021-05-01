@@ -62,7 +62,7 @@ const items = [{
   text: 'personal website'
 }, {
   href: 'https://digicale.com',
-  text: 'digicale merketing site'
+  text: 'digicale marketing site'
 }, {
   href: 'https://accounts.digicale.com',
   text: 'digicale accounts'

@@ -18,7 +18,7 @@ const Title = styled.div`
 
 const NotFound = () => (
   <Container>
-    <Title>yeah no, there's nothing here...</Title>
+    <Title>no</Title>
   </Container>
 );
 

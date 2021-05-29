@@ -33,8 +33,8 @@ const HeaderItem = ({ path, grow, children }: PropsWithChildren<HeaderItemProps>
 
 const Container = styled.div`
   width: 100%;
-  border-bottom: 1px solid #3e3e3e;
   margin-bottom: 50px;
+  background-color: #141414;
 `;
 
 const Wrapper = styled.div`

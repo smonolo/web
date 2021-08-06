@@ -31,6 +31,7 @@ const Grid = styled.div`
 
     ${Anchor} {
       color: #008cff;
+      text-decoration: none;
     }
   }
 
@@ -48,9 +49,43 @@ const Grid = styled.div`
       font-size: 20px;
       color: #303030;
     }
+  }
 
-    ${Anchor} {
-      color: #008cff;
+  @media (max-width: 1000px) {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    ${Box}, ${Box}:nth-child(4n + 1), ${Box}:nth-child(4n + 4) {
+      padding: 30px;
+      background-color: transparent;
+      border-radius: 0;
+
+      ${Title} {
+        font-size: 30px;
+        color: #ffffff;
+      }
+
+      ${Text} {
+        font-size: 20px;
+        color: #e0e0e0;
+      }
+    }
+
+    ${Box}:nth-child(odd) {
+      padding: 30px;
+      background-color: #e0e0e0;
+      border-radius: 10px;
+
+      ${Title} {
+        font-size: 30px;
+        color: #191919;
+      }
+
+      ${Text} {
+        font-size: 20px;
+        color: #303030;
+      }
     }
   }
 `;

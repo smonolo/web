@@ -34,6 +34,7 @@ const BlueBox = styled(Box)`
 
   ${Anchor} {
     color: #ffffff;
+    text-decoration: underline;
   }
 `;
 

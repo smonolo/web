@@ -58,12 +58,12 @@ export const Spacer = styled.div<{ margin?: number; }>`
 
 export const Anchor = styled.a`
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: inherit;
 `;
 
 export const Link = styled(RouterLink)`
   color: #008cff;
-  text-decoration: underline;
+  text-decoration: none;
   font-size: inherit;
 `;

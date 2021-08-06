@@ -36,10 +36,15 @@
       "https://atoxnetwork.com"
     ]
   }, {
-    "name": "Websites",
-    "company": "GyllieGyllie",
+    "name": "Website",
+    "company": "HytaleSquare",
     "links": [
-      "https://hytalesquare.net",
+      "https://hytalesquare.net"
+    ]
+  }, {
+    "name": "Website",
+    "company": "GyllieBot",
+    "links": [
       "https://gylliebot.net"
     ]
   }]

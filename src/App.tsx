@@ -1,14 +1,12 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Header from './components/Header';
-import NotFound from './pages/NotFound';
-import Footer from './components/Footer';
+import Navigation from './components/navigation';
+import items from './items';
 
 const GlobalStyle = createGlobalStyle`
   * {
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Rokkitt', sans-serif;
   }
 
   *::-webkit-scrollbar {
@@ -20,13 +18,16 @@ const GlobalStyle = createGlobalStyle`
     background-color: #252525;
     border-radius: 5px;
   }
+
+  *::selection {
+    background: #008cff;
+    color: #ffffff;
+  }
   
   body {
     margin: 0;
     padding: 0;
-    background-color: #191919;
-    position: relative;
-    user-select: none;
+    background-color: #131313;
   }
 
   #root {
@@ -34,38 +35,18 @@ const GlobalStyle = createGlobalStyle`
   }
 `;
 
-type RouteProps = {
-  path: string;
-  component: () => JSX.Element;
-  showHeader: boolean;
-  text?: string;
-};
-
-export const routes: RouteProps[] = [{
-  path: '/',
-  component: Home,
-  showHeader: false
-}, {
-  path: '',
-  component: NotFound,
-  showHeader: false
-}];
-
 const App = () => (
   <BrowserRouter>
     <GlobalStyle />
-    <Header />
+    <Navigation />
     <Switch>
-      {routes.map(({ path, component }, index) => (
+      {items.map((item, index) => (
         <Route
-          key={index}
-          exact
-          path={path}
-          component={component}
+          key={`route-${index}`}
+          {...item}
         />
       ))}
     </Switch>
-    <Footer />
   </BrowserRouter>
 );
 

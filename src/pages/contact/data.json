@@ -1,0 +1,12 @@
+{
+  "emails": [{
+    "email": "stefano@smnl.it",
+    "context": "Business"
+  }, {
+    "email": "stefano@badlion.net",
+    "context": "Badlion Client"
+  }, {
+    "email": "stefano@digicale.com",
+    "context": "digicale"
+  }]
+}

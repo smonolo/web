@@ -1,0 +1,46 @@
+{
+  "activeProjects": [{
+    "name": "Websites & Launcher",
+    "company": "Badlion",
+    "links": [
+      "https://www.badlion.net",
+      "https://client.badlion.net",
+      "https://store.badlion.net"
+    ]
+  }, {
+    "name": "Websites",
+    "company": "digicale",
+    "links": [
+      "https://www.digicale.com",
+      "https://accounts.digicale.com",
+      "https://italia.digicale.com"
+    ]
+  }, {
+    "name": "Website",
+    "company": "Team Legnano Nuoto",
+    "links": [
+      "https://www.teamlegnanonuoto.it"
+    ]
+  }, {
+    "name": "Websites",
+    "company": "Top.gg",
+    "links": [
+      "https://top.gg",
+      "https://auctions.top.gg"
+    ]
+  }, {
+    "name": "Websites",
+    "company": "Atox",
+    "links": [
+      "https://atox.dev",
+      "https://atoxnetwork.com"
+    ]
+  }, {
+    "name": "Websites",
+    "company": "GyllieGyllie",
+    "links": [
+      "https://hytalesquare.net",
+      "https://gylliebot.net"
+    ]
+  }]
+}

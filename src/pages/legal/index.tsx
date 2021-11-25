@@ -50,7 +50,7 @@ const Legal = () => {
               <Spacer>
                 <Text>Stefano Monolo</Text>
                 <Text>Corso America, 5, 20020</Text>
-                <Text>Arconate (MI), 20020, Lombardia, Italia</Text>
+                <Text>Arconate (MI), Lombardia, Italia</Text>
                 <Text>IT11729910965</Text>
                 <Text>stefano@smnl.it</Text>
               </Spacer>

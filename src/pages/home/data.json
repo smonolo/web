@@ -20,6 +20,10 @@
     "medal": {
       "link": "https://medal.tv",
       "text": "Medal"
+    },
+    "milanoovest": {
+      "link": "https://www.milanoovest.com",
+      "text": "Milano Ovest"
     }
   }
 }

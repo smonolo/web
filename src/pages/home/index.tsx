@@ -7,7 +7,7 @@ const Home = () => {
   const { yearStarted, outlinks } = data;
   const yearsAgo = new Date().getFullYear() - yearStarted;
 
-  const { esl, badlion, digicale, topgg, medal } = outlinks;
+  const { esl, badlion, digicale, topgg, medal, milanoovest } = outlinks;
 
   return (
     <Container>
@@ -16,9 +16,9 @@ const Home = () => {
         <Box>
           <Title>Me</Title>
           <Text>
-            I'm a frontend developer at <Outlink {...esl} /> for <Outlink {...badlion} />.
-            Creator of <Outlink {...digicale} /> and other related projects.
-            Previously frontend engineer at <Outlink {...topgg} /> and <Outlink {...medal} />.
+            I'm a frontend developer.
+            Creator of <Outlink {...digicale} /> and other related projects. Doing web and UI development at <Outlink {...milanoovest} />.
+            Previously web developer at <Outlink {...esl} /> for <Outlink {...badlion} /> and frontend engineer at <Outlink {...topgg} /> and <Outlink {...medal} />.
           </Text>
           <Spacer>
             <Text>

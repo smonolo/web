@@ -30,9 +30,10 @@
     ]
   }, {
     "name": "Milano Ovest",
-    "company": "Website & UI",
+    "company": "Websites & UI",
     "links": [
-      "https://www.milanoovest.com"
+      "https://www.milanoovest.com",
+      "https://account.milanoovest.com"
     ]
   }, {
     "name": "Atox",

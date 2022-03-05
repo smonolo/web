@@ -1,11 +1,19 @@
 {
   "activeProjects": [{
+      "name": "Moonsworth",
+      "company": "Websites & Launcher",
+      "links": [
+        "https://www.moonsworth.com",
+        "https://www.lunarclient.com"
+      ]
+  }, {
     "name": "Badlion",
     "company": "Websites & Launcher",
     "links": [
       "https://www.badlion.net",
       "https://client.badlion.net",
-      "https://store.badlion.net"
+      "https://store.badlion.net",
+      "https://streams.badlion.net"
     ]
   }, {
     "name": "digicale",
@@ -37,6 +45,13 @@
       "https://store.milanoovest.com"
     ]
   }, {
+    "name": "MarKz3D",
+    "company": "Website",
+    "links": [
+      "https://www.markz3d.com",
+      "https://shop.markz3d.com"
+    ]
+  }, {
     "name": "Atox",
     "company": "Websites",
     "links": [
@@ -60,12 +75,6 @@
     "company": "Website",
     "links": [
       "https://gylliebot.net"
-    ]
-  }, {
-    "name": "MarKz3D",
-    "company": "Website",
-    "links": [
-      "https://www.markz3d.com"
     ]
   }]
 }

@@ -12,16 +12,14 @@
     "links": [
       "https://www.badlion.net",
       "https://client.badlion.net",
-      "https://store.badlion.net",
-      "https://streams.badlion.net"
+      "https://store.badlion.net"
     ]
   }, {
     "name": "digicale",
     "company": "Websites",
     "links": [
       "https://www.digicale.com",
-      "https://accounts.digicale.com",
-      "https://italia.digicale.com"
+      "https://accounts.digicale.com"
     ]
   }, {
     "name": "Team Legnano Nuoto",
@@ -37,12 +35,18 @@
       "https://auctions.top.gg"
     ]
   }, {
+    "name": "MAYDAY",
+    "company": "Websites & Infrastructure",
+    "links": [
+      "https://www.maydayrp.com",
+      "https://account.maydayrp.com"
+    ]
+  }, {
     "name": "Milano Ovest",
-    "company": "Websites & UI",
+    "company": "Websites & Infrastructure",
     "links": [
       "https://www.milanoovest.com",
-      "https://account.milanoovest.com",
-      "https://store.milanoovest.com"
+      "https://account.milanoovest.com"
     ]
   }, {
     "name": "MarKz3D",

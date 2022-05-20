@@ -1,33 +1,33 @@
 {
-  "yearStarted": 2016,
-  "outlinks": {
-    "esl": {
-      "link": "https://about.eslgaming.com",
-      "text": "ESL Gaming Online"
-    },
-    "badlion": {
-      "link": "https://www.badlion.net",
-      "text": "Badlion Client"
-    },
-    "digicale": {
-      "link": "https://www.digicale.com",
-      "text": "digicale"
-    },
-    "topgg": {
-      "link": "https://top.gg",
-      "text": "Top.gg"
-    },
-    "medal": {
-      "link": "https://medal.tv",
-      "text": "Medal"
-    },
-    "milanoovest": {
-      "link": "https://www.milanoovest.com",
-      "text": "Milano Ovest"
-    },
-    "moonsworth": {
-      "link": "https://www.moonsworth.com",
-      "text": "Moonsworth"
+    "yearStarted": 2016,
+    "outlinks": {
+        "esl": {
+            "link": "https://about.eslgaming.com",
+            "text": "ESL Gaming Online"
+        },
+        "badlion": {
+            "link": "https://www.badlion.net",
+            "text": "Badlion Client"
+        },
+        "digicale": {
+            "link": "https://www.digicale.com",
+            "text": "digicale"
+        },
+        "topgg": {
+            "link": "https://top.gg",
+            "text": "Top.gg"
+        },
+        "medal": {
+            "link": "https://medal.tv",
+            "text": "Medal"
+        },
+        "mayday": {
+            "link": "https://www.maydayrp.com",
+            "text": "MAYDAY"
+        },
+        "moonsworth": {
+            "link": "https://www.moonsworth.com",
+            "text": "Moonsworth"
+        }
     }
-  }
 }

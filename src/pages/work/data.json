@@ -1,84 +1,97 @@
 {
-  "activeProjects": [{
-      "name": "Moonsworth",
-      "company": "Websites & Launcher",
-      "links": [
-        "https://www.moonsworth.com",
-        "https://www.lunarclient.com"
-      ]
-  }, {
-    "name": "Badlion",
-    "company": "Websites & Launcher",
-    "links": [
-      "https://www.badlion.net",
-      "https://client.badlion.net",
-      "https://store.badlion.net"
+    "activeProjects": [
+        {
+            "name": "Moonsworth",
+            "company": "Websites & Launcher",
+            "links": [
+                "https://www.moonsworth.com",
+                "https://www.lunarclient.com"
+            ]
+        },
+        {
+            "name": "Badlion",
+            "company": "Websites & Launcher",
+            "links": [
+                "https://www.badlion.net",
+                "https://client.badlion.net",
+                "https://store.badlion.net"
+            ]
+        },
+        {
+            "name": "digicale",
+            "company": "Websites",
+            "links": [
+                "https://www.digicale.com",
+                "https://accounts.digicale.com"
+            ]
+        },
+        {
+            "name": "Team Legnano Nuoto",
+            "company": "Websites",
+            "links": [
+                "https://www.teamlegnanonuoto.it"
+            ]
+        },
+        {
+            "name": "Top.gg",
+            "company": "Websites",
+            "links": [
+                "https://top.gg",
+                "https://auctions.top.gg"
+            ]
+        },
+        {
+            "name": "MAYDAY",
+            "company": "Websites & Infrastructure",
+            "links": [
+                "https://www.maydayrp.com",
+                "https://account.maydayrp.com"
+            ]
+        },
+        {
+            "name": "Milano Ovest",
+            "company": "Websites & Infrastructure",
+            "links": [
+                "https://www.milanoovest.com",
+                "https://account.milanoovest.com"
+            ]
+        },
+        {
+            "name": "MarKz3D",
+            "company": "Website",
+            "links": [
+                "https://www.markz3d.com",
+                "https://shop.markz3d.com"
+            ]
+        },
+        {
+            "name": "Atox",
+            "company": "Websites",
+            "links": [
+                "https://atox.dev",
+                "https://atoxnetwork.com"
+            ]
+        },
+        {
+            "name": "Crate",
+            "company": "Websites",
+            "links": [
+                "https://crate.rip"
+            ]
+        },
+        {
+            "name": "HytaleSquare",
+            "company": "Website",
+            "links": [
+                "https://hytalesquare.net"
+            ]
+        },
+        {
+            "name": "GyllieBot",
+            "company": "Website",
+            "links": [
+                "https://gylliebot.net"
+            ]
+        }
     ]
-  }, {
-    "name": "digicale",
-    "company": "Websites",
-    "links": [
-      "https://www.digicale.com",
-      "https://accounts.digicale.com"
-    ]
-  }, {
-    "name": "Team Legnano Nuoto",
-    "company": "Websites",
-    "links": [
-      "https://www.teamlegnanonuoto.it"
-    ]
-  }, {
-    "name": "Top.gg",
-    "company": "Websites",
-    "links": [
-      "https://top.gg",
-      "https://auctions.top.gg"
-    ]
-  }, {
-    "name": "MAYDAY",
-    "company": "Websites & Infrastructure",
-    "links": [
-      "https://www.maydayrp.com",
-      "https://account.maydayrp.com"
-    ]
-  }, {
-    "name": "Milano Ovest",
-    "company": "Websites & Infrastructure",
-    "links": [
-      "https://www.milanoovest.com",
-      "https://account.milanoovest.com"
-    ]
-  }, {
-    "name": "MarKz3D",
-    "company": "Website",
-    "links": [
-      "https://www.markz3d.com",
-      "https://shop.markz3d.com"
-    ]
-  }, {
-    "name": "Atox",
-    "company": "Websites",
-    "links": [
-      "https://atox.dev",
-      "https://atoxnetwork.com"
-    ]
-  }, {
-    "name": "Crate",
-    "company": "Websites",
-    "links": [
-      "https://crate.rip"
-    ]
-  }, {
-    "name": "HytaleSquare",
-    "company": "Website",
-    "links": [
-      "https://hytalesquare.net"
-    ]
-  }, {
-    "name": "GyllieBot",
-    "company": "Website",
-    "links": [
-      "https://gylliebot.net"
-    ]
-  }]
 }

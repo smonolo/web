@@ -1,9 +1,12 @@
 {
-  "emails": [{
-    "email": "stefano@smnl.it",
-    "context": "Business"
-  }, {
-    "email": "stefano@digicale.com",
-    "context": "digicale"
-  }]
+    "emails": [
+        {
+            "email": "stefano@smnl.it",
+            "context": "Business"
+        },
+        {
+            "email": "stefano@digicale.com",
+            "context": "digicale"
+        }
+    ]
 }

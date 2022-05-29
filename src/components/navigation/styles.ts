@@ -3,6 +3,8 @@ import styled from "styled-components";
 
 export const Spacer = styled.div`
     margin-bottom: 40px;
+    border-bottom: 2px solid #353535;
+    box-sizing: border-box;
 `;
 
 export const Grid = styled.div`
@@ -12,7 +14,6 @@ export const Grid = styled.div`
     grid-column-gap: 20px;
     padding: 30px 0;
     box-sizing: border-box;
-    border-bottom: 2px solid #353535;
 `;
 
 export const Column = styled.div`

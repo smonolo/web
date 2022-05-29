@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
     position: absolute;
     bottom: 0;
     left: 0;
+    border-top: 2px solid #353535;
 `;
 
 export const Row = styled.div`
@@ -21,7 +22,6 @@ export const Row = styled.div`
     gap: 20px;
     padding: 20px 0;
     box-sizing: border-box;
-    border-top: 2px solid #353535;
 
     @media (max-width: 800px) {
         flex-direction: column;

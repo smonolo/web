@@ -6,7 +6,7 @@ import data from './data.json';
 function Home() {
     const { yearStarted, outlinks } = data;
     const yearsAgo = new Date().getFullYear() - yearStarted;
-    const { esl, badlion, digicale, topgg, medal, mayday, moonsworth } = outlinks;
+    const { esl, badlion, breeng, topgg, medal, mayday, moonsworth } = outlinks;
 
     return (
         <Container>
@@ -15,8 +15,8 @@ function Home() {
                 <Box>
                     <Title>Me</Title>
                     <Text>
-                        I'm a frontend developer at <Outlink {...moonsworth} />.
-                        Creator of <Outlink {...digicale} /> and other related projects. Doing web and UI development at <Outlink {...mayday} />.
+                        I'm a frontend engineer at <Outlink {...moonsworth} />.
+                        Co-Founder & CEO of <Outlink {...breeng}  />, a new way of finding jobs. Doing web and UI development for <Outlink {...mayday} />.
                         Previously web developer at <Outlink {...esl} /> for <Outlink {...badlion} /> and frontend engineer at <Outlink {...topgg} /> and <Outlink {...medal} />.
                     </Text>
                     <Spacer>

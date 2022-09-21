@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Anchor, Box, Container, Heading, Spacer, Text, Title } from '../../styles';
 import { BlueBox, Column, Grid } from './styles';
 

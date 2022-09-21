@@ -1,8 +1,10 @@
 import React from 'react';
+
 import Outlink from '../../components/outlink';
+
 import { Container, Heading, Spacer, Text, Anchor, Title } from '../../styles';
-import data from './data.json';
 import { Column, ContactBox, Item } from './styles';
+import data from './data.json';
 
 function Contact() {
     const { emails } = data;

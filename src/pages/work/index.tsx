@@ -1,8 +1,10 @@
 import React from 'react';
+
 import Outlink from '../../components/outlink';
+
 import { Box, Container, Heading, Spacer, Text, Title } from '../../styles';
-import data from './data.json';
 import { Column, Flex } from './styles';
+import data from './data.json';
 
 function Work() {
     const { activeProjects } = data;

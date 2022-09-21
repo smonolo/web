@@ -1,7 +1,8 @@
 import React from 'react';
+import { withRouter } from 'react-router';
+
 import { Container } from '../../styles';
 import items from './items';
-import { withRouter } from 'react-router';
 import { Column, Grid, Item, Spacer } from './styles';
 
 function Navigation() {

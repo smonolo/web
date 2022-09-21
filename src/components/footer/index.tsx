@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Anchor, Container, Text } from '../../styles';
 import { Column, Links, Row, Spacer, Wrapper } from './styles';
 import data from './data.json';
@@ -10,7 +11,7 @@ function Footer() {
                 <Container>
                     <Row>
                         <Column>
-                            <Text>Stefano Monolo. P. IVA: 11729910965</Text>
+                            <Text>Stefano Monolo. P.IVA: 11729910965</Text>
                         </Column>
                         <Links>
                             {data.links.map((link, index) => (
